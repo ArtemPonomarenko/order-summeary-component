@@ -116,6 +116,12 @@ body {
 .cancel-btn:hover {
   color: #1f2e55;
 }
+@media screen and (min-width: 630px) {
+  body {
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-size: contain;
+  }
+}
 @media screen and (min-width: 1440px) {
   body {
     background-position: 0 0;
@@ -169,10 +175,3 @@ body {
     width: 107px;
   }
 }
-
-// @media screen and (min-width: 630px) {
-//   body {
-//     background-image: url(./images/pattern-background-desktop.svg);
-//     background-size: contain;
-//   }
-// }
